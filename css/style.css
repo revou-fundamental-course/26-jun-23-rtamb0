@@ -4,3 +4,35 @@
     padding: 0;
     font-family: 'Noto Sans', 'Sans Serif', 'Arial'
 }
+
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-bar img {
+    height: 75px;
+}
+
+
+.nav-buttons ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+}
+
+.nav-buttons li {
+    padding: 10px 20px;
+    width: 140px;
+    flex: 1;
+    text-align: center;
+}
+
+.nav-buttons .middle {
+    border-style: solid;
+    border-width: 0 1px;
+}
