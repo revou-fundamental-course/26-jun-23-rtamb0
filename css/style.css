@@ -137,6 +137,7 @@ section hr {
 .add-info > p {
     width: 550px;
     font-size: 20px;
+    color: #434e5a;
 }
 
 .feature {
@@ -147,6 +148,7 @@ section hr {
 
 .feature p {
     width: 400px;
+    color: #8d959e;
 }
 
 .feature div {
