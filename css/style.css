@@ -25,7 +25,7 @@
 }
 
 .nav-buttons li {
-    padding: 0 10px;
+    padding: 10px 0;
     width: 115px;
     flex: 1;
     text-align: center;
