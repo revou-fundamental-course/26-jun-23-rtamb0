@@ -60,3 +60,68 @@ header hr {
     font-size: 20px;
     color: #8d959e;
 }
+
+section {
+    display: flex;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimony {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.testimony img {
+    height: 400px;
+    border-radius: 20px;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    gap: 70px;
+}
+
+.description p em {
+    color: #8d959e;
+    font-size: 25px;
+}
+
+.testimonial {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.testimonial img {
+    height: 70px;
+    border-radius: 100px;
+}
+
+.testimonial-bio {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.testimonial-bio p strong {
+    color: #434e5a;
+    font-size: 20px;
+}
+
+.testimonial-bio p em {
+    font-size: 17px;
+}
+
+section hr {
+    margin: 35px 0;
+    width: 15%;
+    border: 2px solid #ebeeef;
+}
