@@ -182,3 +182,13 @@ section hr {
 .contact-heading p {
     max-width: 300px;
 }
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+}
