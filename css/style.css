@@ -193,6 +193,10 @@ form div {
     flex-direction: column;
 }
 
+form label {
+    font-size: 17px;
+}
+
 form input, form select {
     padding: 18px;
     border-radius: 10px;
