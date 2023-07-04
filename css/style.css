@@ -60,7 +60,7 @@ header hr {
     color: #8d959e;
 }
 
-section {
+section.first {
     display: flex;
     justify-content: space-evenly;
 }
@@ -124,7 +124,7 @@ section {
 
 section hr {
     margin: 35px 0;
-    width: 15%;
+    width: 150px;
     border: 2px solid #ebeeef;
     align-self: center;
 }
