@@ -194,11 +194,12 @@ form div {
 }
 
 form input, form select {
-    padding: 15px;
+    padding: 18px;
     border-radius: 10px;
     border-style: solid;
     border-width: 2px;
     border-color: #8d959e;
+    font-size: 16px;
 }
 
 form select, form option {
@@ -208,4 +209,13 @@ form select, form option {
 
 form select:invalid, option[value=""] {
     color: #888;
+}
+
+form button {
+    padding: 18px;
+    border-radius: 5px;
+    background-color: #434e5a;
+    border-style: none;
+    font-size: 16px;
+    color: white;
 }
