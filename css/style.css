@@ -192,3 +192,20 @@ form div {
     display: flex;
     flex-direction: column;
 }
+
+form input, form select {
+    padding: 15px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #8d959e;
+}
+
+form select, form option {
+    color: black;
+    background-color: white;
+}
+
+form select:invalid, option[value=""] {
+    color: #888;
+}
