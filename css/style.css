@@ -168,6 +168,15 @@ section hr {
     background-color: #ebeeef;
     max-height: 660px;
     border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contact-heading {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .contact-heading p {
