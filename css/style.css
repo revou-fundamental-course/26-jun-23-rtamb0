@@ -15,7 +15,6 @@
     height: 75px;
 }
 
-
 .nav-buttons ul {
     display: flex;
     list-style: none;
@@ -63,7 +62,7 @@ header hr {
 
 section {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .information {
@@ -90,9 +89,10 @@ section {
     gap: 70px;
 }
 
-.description > p {
+.description h3 {
     color: #8d959e;
     font-size: 25px;
+    font-weight: lighter;
 }
 
 .testimonial {
@@ -112,12 +112,12 @@ section {
     gap: 3px;
 }
 
-.testimonial-bio p strong {
+.testimonial-bio h4 {
     color: #434e5a;
     font-size: 20px;
 }
 
-.testimonial-bio p em {
+.testimonial-bio p {
     font-size: 17px;
 }
 
