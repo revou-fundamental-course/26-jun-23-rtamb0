@@ -60,6 +60,13 @@ header hr {
     color: #8d959e;
 }
 
+section hr {
+    margin: 35px 0;
+    width: 150px;
+    border: 2px solid #ebeeef;
+    align-self: center;
+}
+
 section.first {
     display: flex;
     justify-content: space-evenly;
@@ -120,13 +127,6 @@ section.first {
 .testimonial-bio p {
     font-size: 16px;
     color: #8d959e;
-}
-
-section hr {
-    margin: 35px 0;
-    width: 150px;
-    border: 2px solid #ebeeef;
-    align-self: center;
 }
 
 .add-info {
