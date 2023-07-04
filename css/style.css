@@ -78,7 +78,7 @@ section {
 
 .testimony img {
     height: 400px;
-    border-radius: 20px;
+    border-radius: 5px;
     align-self: auto;
 }
 
@@ -86,12 +86,12 @@ section {
     display: flex;
     flex-direction: column;
     margin-left: 50px;
-    gap: 70px;
+    gap: 60px;
 }
 
 .description h3 {
     color: #8d959e;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: lighter;
 }
 
@@ -114,11 +114,11 @@ section {
 
 .testimonial-bio h4 {
     color: #434e5a;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .testimonial-bio p {
-    font-size: 17px;
+    font-size: 16px;
     color: #8d959e;
 }
 
@@ -166,6 +166,8 @@ section hr {
 .contact-form {
     padding: 50px;
     background-color: #ebeeef;
+    max-height: 660px;
+    border-radius: 5px;
 }
 
 .contact-heading p {
