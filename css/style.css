@@ -179,22 +179,31 @@ section hr {
     gap: 20px;
 }
 
+.contact-heading h1 {
+    color: #434e5a;
+}
+
 .contact-heading p {
     max-width: 300px;
+    font-size: 15px;
+    color: #8d959e;
 }
 
 form {
     display: flex;
     flex-direction: column;
+    gap: 25px;
 }
 
 form div {
     display: flex;
     flex-direction: column;
+    gap: 5px;
 }
 
 form label {
     font-size: 17px;
+    color: #434e5a;
 }
 
 form input, form select {
