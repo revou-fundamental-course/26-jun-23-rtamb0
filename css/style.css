@@ -119,6 +119,7 @@ section {
 
 .testimonial-bio p {
     font-size: 17px;
+    color: #8d959e;
 }
 
 section hr {
@@ -135,7 +136,7 @@ section hr {
 }
 
 .add-info > p {
-    width: 550px;
+    max-width: 550px;
     font-size: 20px;
     color: #434e5a;
 }
@@ -147,7 +148,7 @@ section hr {
 }
 
 .feature p {
-    width: 400px;
+    max-width: 400px;
     color: #8d959e;
 }
 
@@ -160,4 +161,13 @@ section hr {
     height: 50px;
     color: #8d959e;
     font-size: 20px;
+}
+
+.contact-form {
+    padding: 50px;
+    background-color: #ebeeef;
+}
+
+.contact-heading p {
+    max-width: 300px;
 }
