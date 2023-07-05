@@ -22,25 +22,33 @@ const button = document.querySelector('#button');
 
 
 nameInput.addEventListener("input", (e) => {
-    if (nameInput.validity.valid) {
-        wrongName.textContent = "";
-    } else {
+    if (!nameInput.validity.valid) {
         wrongName.textContent = "You can only put characters in here!";
+    } else {
+        wrongName.textContent = "";
     }
 });
 
 emailInput.addEventListener("input", (e) => {
-    if (emailInput.validity.valid) {
-        wrongEmail.textContent = "";
+    if (!emailInput.validity.valid) {
+        wrongEmail.textContent = "You can only put email addresses in here!"
     } else {
-        wrongEmail.textContent = "You can only put email addresses in here!";
+        wrongEmail.textContent = "";
     }
 });
 
 phoneInput.addEventListener("input", (e) => {
-    if (phoneInput.validity.valid) {
-        wrongPhone.textContent = "";
-    } else {
+    if (!phoneInput.validity.valid) {
         wrongPhone.textContent = "You can only put numbers in here!";
+    } else {
+        wrongPhone.textContent = "";
     }
 });
+
+interestSelect.addEventListener("click", (e) => {
+    if (!interestSelect.value) {
+        noInterest.textContent = "Please select an option.";
+    } else {
+        noInterest.textContent = "";
+    }
+} )
