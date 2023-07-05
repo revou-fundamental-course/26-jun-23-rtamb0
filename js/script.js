@@ -26,6 +26,7 @@ contactHeading.appendChild(validateConfirm);
 
 const form = document.querySelector('#form');
 
+const slideshow = document.querySelectorAll('.slideshow > img')
 
 nameInput.addEventListener("input", (e) => {
     if (!nameInput.validity.valid) {
