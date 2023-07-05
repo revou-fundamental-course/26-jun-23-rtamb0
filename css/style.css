@@ -251,9 +251,16 @@ section.second {
 .package-list {
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 .list-1, .list-2, .package {
     display: flex;
+}
+
+.list-1, .list-2 {
+    justify-content: space-evenly;
+}
+
+.package p {
+    max-width: 200px;
 }
