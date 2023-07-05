@@ -6,12 +6,12 @@
 }
 
 .page-title h1, .testimonial-bio h4, .add-info > p , .contact-heading h1, 
-form label, .second h1 {
+form label, .second h1, .package-top h4 {
     color: #434e5a;
 }
 
 .page-title h5, .description h3, .testimonial-bio p, .feature div, 
-.package-logo, .feature p, .contact-heading p {
+.package-logo, .feature p, .contact-heading p, .package p {
     color: #8d959e;
 }
 
