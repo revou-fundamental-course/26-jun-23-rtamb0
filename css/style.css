@@ -391,3 +391,65 @@ section.second {
         gap: 100px;
     }
 }
+
+@media only screen and (max-width: 425px) {
+    .nav-bar {
+        justify-content: space-between;
+        padding: 0 15px;
+    }
+
+    .nav-bar img, .footer img {
+        height: 50px;
+    }
+
+    .nav-buttons li {
+        padding: 10px 2px;
+        width: auto;
+    }
+
+    .page-title h1, .second h1, .closing-text h1 {
+        font-size: 30px;
+    }
+
+    .page-title h5 {
+        font-size: 18px;
+    }
+
+    .slideshow img {
+        height: 200px;
+    }
+
+    .testimony {
+        align-items: center;
+    }
+
+    .description {
+        gap: 30px;
+    }
+
+    .description h3 {
+        font-size: 18px;
+    }
+
+    .add-info > p {
+        max-width: 350px;
+        font-size: 17px;
+    }
+
+    .feature p {
+        max-width: 240px;
+    }
+
+    .closing-text p {
+        max-width: 300px;
+        font-size: 16px;
+    }
+
+    .closing-text {
+        align-items: center;
+    }
+    
+    .footer {
+        margin-bottom: 15px;
+    }
+}
