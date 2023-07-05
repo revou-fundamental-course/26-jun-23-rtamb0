@@ -40,6 +40,11 @@ form label, .second h1, .package-top h4, .closing-text h1 {
     border-radius: 5px;
 }
 
+.nav-buttons a {
+    text-decoration: none;
+    color: black;
+}
+
 .nav-buttons li {
     padding: 10px 0;
     width: 115px;
