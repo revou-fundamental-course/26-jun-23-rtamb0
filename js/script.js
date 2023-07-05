@@ -21,7 +21,7 @@ interest.insertBefore(noInterest, interestSelect);
 const contactHeading = document.querySelector('.contact-heading');
 const button = document.querySelector('#button');
 const validateConfirm = document.createElement('div');
-
+validateConfirm.style.cssText = 'max-width: 300px; font-size: 18px;'
 contactHeading.appendChild(validateConfirm);
 
 const form = document.querySelector('#form');
@@ -64,7 +64,9 @@ form.addEventListener("submit", (e) => {
     if ((!interestSelect.value) || (phoneInput.value === "") ||
     (!emailInput.value === "") || (nameInput.value === "")) {
         validateConfirm.textContent = "Please make sure you have filled all of the form!";
+        validateConfirm.style.cssText += 'color: darkred;'
     } else {
         validateConfirm.textContent = "Success! A contact team will get in touch with you soon.";
+        validateConfirm.style.cssText += 'color: darkgreen;'
     }
 })
