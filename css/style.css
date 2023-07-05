@@ -237,13 +237,13 @@ form button {
 section.second {
     display: flex;
     flex-direction: column;
-    gap: 50px;
 }
 
 .second h1 {
     text-align: center;
     background-color: #ebeeef;
     padding: 100px;
+    margin-bottom: 50px;
     font-size: 40px;
     color: #434e5a;
 }
