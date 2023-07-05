@@ -254,6 +254,12 @@ section.second {
     justify-content: space-evenly;
 }
 
+.package-top {
+    align-items: center;
+    gap: 10px
+}
+
 .package p {
-    max-width: 200px;
+    max-width: 220px;
+    margin-left: 60px;
 }
