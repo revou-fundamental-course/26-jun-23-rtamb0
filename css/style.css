@@ -5,8 +5,25 @@
     font-family: 'Noto Sans', 'Sans Serif', 'Arial'
 }
 
-.nav-bar {
+.page-title h1, .testimonial-bio h4, .add-info > p , .contact-heading h1, 
+form label, .second h1 {
+    color: #434e5a;
+}
+
+.page-title h5, .description h3, .testimonial-bio p, .feature div, 
+.package-logo, .feature p, .contact-heading p {
+    color: #8d959e;
+}
+
+.feature div, .package-logo, .contact-form, .second h1 {
+    background-color: #ebeeef;
+}
+
+.nav-bar, .nav-buttons ul {
     display: flex;
+}
+
+.nav-bar {
     justify-content: space-around;
     align-items: center;
 }
@@ -16,7 +33,6 @@
 }
 
 .nav-buttons ul {
-    display: flex;
     list-style: none;
     border-style: solid;
     border-width: 1px;
@@ -51,13 +67,11 @@ header hr {
 .page-title h1 {
     max-width: 700px;
     font-size: 40px;
-    color: #434e5a;
 }
 
 .page-title h5 {
     font-weight: lighter;
     font-size: 20px;
-    color: #8d959e;
 }
 
 section hr {
@@ -73,14 +87,16 @@ section.first {
     margin-bottom: 100px;
 }
 
-.information {
+.information, .testimony, .description, .testimonial,
+.testimonial-bio {
     display: flex;
+}
+
+.information, .testimony, .description, .testimonial-bio {
     flex-direction: column;
 }
 
 .testimony {
-    display: flex;
-    flex-direction: column;
     gap: 35px;
 }
 
@@ -91,20 +107,16 @@ section.first {
 }
 
 .description {
-    display: flex;
-    flex-direction: column;
     margin-left: 50px;
     gap: 60px;
 }
 
 .description h3 {
-    color: #8d959e;
     font-size: 20px;
     font-weight: lighter;
 }
 
 .testimonial {
-    display: flex;
     align-items: center;
     gap: 25px;
 }
@@ -115,23 +127,22 @@ section.first {
 }
 
 .testimonial-bio {
-    display: flex;
-    flex-direction: column;
     gap: 3px;
 }
 
 .testimonial-bio h4 {
-    color: #434e5a;
     font-size: 18px;
 }
 
 .testimonial-bio p {
     font-size: 16px;
-    color: #8d959e;
+}
+
+.add-info, .feature {
+    display: flex;
 }
 
 .add-info {
-    display: flex;
     flex-direction: column;
     gap: 35px;
 }
@@ -139,72 +150,57 @@ section.first {
 .add-info > p {
     max-width: 550px;
     font-size: 20px;
-    color: #434e5a;
 }
 
 .feature {
-    display: flex;
     align-items: center;
     gap: 30px;
 }
 
 .feature p {
     max-width: 400px;
-    color: #8d959e;
 }
 
 .feature div, .package-logo {
     padding-left: 19px;
     padding-top: 14px;
-    background-color: #ebeeef;
     border-radius: 30px;
     width: 50px;
     height: 50px;
-    color: #8d959e;
     font-size: 20px;
+}
+
+.contact-form, .contact-heading, form, form div {
+    display: flex;
+    flex-direction: column;
 }
 
 .contact-form {
     padding: 50px;
-    background-color: #ebeeef;
     max-height: 660px;
     border-radius: 5px;
-    display: flex;
-    flex-direction: column;
     justify-content: space-between;
 }
 
 .contact-heading {
-    display: flex;
-    flex-direction: column;
     gap: 20px;
-}
-
-.contact-heading h1 {
-    color: #434e5a;
 }
 
 .contact-heading p {
     max-width: 300px;
     font-size: 15px;
-    color: #8d959e;
 }
 
 form {
-    display: flex;
-    flex-direction: column;
     gap: 25px;
 }
 
 form div {
-    display: flex;
-    flex-direction: column;
     gap: 5px;
 }
 
 form label {
     font-size: 17px;
-    color: #434e5a;
 }
 
 form input, form select {
@@ -239,30 +235,23 @@ section.second {
     flex-direction: column;
 }
 
-.second h1 {
-    text-align: center;
-    background-color: #ebeeef;
-    padding: 100px;
-    margin-bottom: 50px;
-    font-size: 40px;
-    color: #434e5a;
+.list-1, .list-2, .package, .package-top, .package-list {
+    display: flex;
 }
 
-.package-list {
-    display: flex;
+.package, .package-list {
     flex-direction: column;
 }
 
-.list-1, .list-2, .package, .package-top {
-    display: flex;
+.second h1 {
+    text-align: center;
+    padding: 100px;
+    margin-bottom: 50px;
+    font-size: 40px;
 }
 
 .list-1, .list-2 {
     justify-content: space-evenly;
-}
-
-.package {
-    flex-direction: column;
 }
 
 .package p {
