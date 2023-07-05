@@ -253,12 +253,16 @@ section.second {
     flex-direction: column;
 }
 
-.list-1, .list-2, .package {
+.list-1, .list-2, .package, .package-top {
     display: flex;
 }
 
 .list-1, .list-2 {
     justify-content: space-evenly;
+}
+
+.package {
+    flex-direction: column;
 }
 
 .package p {
