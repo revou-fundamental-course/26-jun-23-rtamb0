@@ -21,7 +21,7 @@ interest.insertBefore(noInterest, interestSelect);
 const contactHeading = document.querySelector('.contact-heading');
 const button = document.querySelector('#button');
 const validateConfirm = document.createElement('div');
-validateConfirm.style.cssText = 'max-width: 300px; font-size: 18px;'
+validateConfirm.style.cssText = 'max-width: 300px; font-size: 18px;';
 contactHeading.appendChild(validateConfirm);
 
 const form = document.querySelector('#form');
@@ -30,6 +30,7 @@ const form = document.querySelector('#form');
 nameInput.addEventListener("input", (e) => {
     if (!nameInput.validity.valid) {
         wrongName.textContent = "You can only put characters in here!";
+        wrongName.style.cssText = 'color: darkred;';
     } else {
         wrongName.textContent = "";
     }
@@ -37,7 +38,8 @@ nameInput.addEventListener("input", (e) => {
 
 emailInput.addEventListener("input", (e) => {
     if (!emailInput.validity.valid) {
-        wrongEmail.textContent = "You can only put email addresses in here!"
+        wrongEmail.textContent = "You can only put email addresses in here!";
+        wrongEmail.style.cssText = 'color: darkred;';
     } else {
         wrongEmail.textContent = "";
     }
@@ -46,6 +48,7 @@ emailInput.addEventListener("input", (e) => {
 phoneInput.addEventListener("input", (e) => {
     if (!phoneInput.validity.valid) {
         wrongPhone.textContent = "You can only put numbers in here!";
+        wrongPhone.style.cssText = 'color: darkred;';
     } else {
         wrongPhone.textContent = "";
     }
@@ -54,6 +57,7 @@ phoneInput.addEventListener("input", (e) => {
 interestSelect.addEventListener("click", (e) => {
     if (!interestSelect.value) {
         noInterest.textContent = "Please select an option.";
+        noInterest.style.cssText = 'color: darkred;';
     } else {
         noInterest.textContent = "";
     }
@@ -64,9 +68,9 @@ form.addEventListener("submit", (e) => {
     if ((!interestSelect.value) || (phoneInput.value === "") ||
     (!emailInput.value === "") || (nameInput.value === "")) {
         validateConfirm.textContent = "Please make sure you have filled all of the form!";
-        validateConfirm.style.cssText += 'color: darkred;'
+        validateConfirm.style.cssText += 'color: darkred;';
     } else {
         validateConfirm.textContent = "Success! A contact team will get in touch with you soon.";
-        validateConfirm.style.cssText += 'color: darkgreen;'
+        validateConfirm.style.cssText += 'color: darkgreen;';
     }
 })
