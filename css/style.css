@@ -246,8 +246,11 @@ section.second {
 .second h1 {
     text-align: center;
     padding: 100px;
-    margin-bottom: 50px;
     font-size: 40px;
+}
+
+.package-list {
+    margin-top: 50px;
 }
 
 .list-1, .list-2 {
@@ -256,10 +259,15 @@ section.second {
 
 .package-top {
     align-items: center;
-    gap: 10px
+    gap: 15px
+}
+
+.package-top h4 {
+    font-size: 20px;
 }
 
 .package p {
     max-width: 220px;
-    margin-left: 60px;
+    margin-left: 65px;
+    margin-top: 10px;
 }
