@@ -29,7 +29,7 @@ form label, .second h1, .package-top h4, .closing-text h1 {
     padding: 0 100px;
 }
 
-.nav-bar img {
+.nav-bar img, .footer img {
     height: 75px;
 }
 
@@ -299,7 +299,7 @@ section.second {
     opacity: 30%;
 }
 
-.closing, .closing-text {
+.closing, .closing-text, .footer {
     display: flex;
     flex-direction: column; 
 }
@@ -308,7 +308,7 @@ section.second {
     align-items: center;
     text-align: center;
     gap: 75px;
-    padding: 75px;
+    padding: 75px 0;
 }
 
 .closing-text {
@@ -326,4 +326,18 @@ section.second {
 
 .closing button {
     min-width: 300px;
+}
+
+.footer {
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.footer ul {
+    display: flex;
+    list-style: none;
+    gap: 18px;
+}
+.footer p {
+    margin-top: 10px;
 }
