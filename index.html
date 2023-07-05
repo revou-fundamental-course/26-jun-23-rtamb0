@@ -73,7 +73,7 @@
                     </div>
                     <div class="phone-input">
                         <label for="phone"><strong>Phone Number:</strong></label>
-                        <input type="number" id="phone" name="phone" placeholder="(+62) xxx-xxxx-xxxx">
+                        <input type="text" pattern="[0-9+]+" maxlength="15" id="phone" name="phone" placeholder="(+62) xxx-xxxx-xxxx">
                     </div>
                     <div class="interest-options">
                         <label for="interest"><strong>What are you interested in?</strong></label>
@@ -89,7 +89,7 @@
                         <label for="message"><strong>Message:</strong></label>
                         <input type="text" id="message" name="message" placeholder="Put your enquiries here">
                     </div>
-                    <button><strong>SEND</strong></button>
+                    <button id="button"><strong>SEND</strong></button>
                 </form>
             </div>
         </section>
