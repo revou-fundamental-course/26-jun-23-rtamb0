@@ -23,6 +23,8 @@ const button = document.querySelector('#button');
 const validateConfirm = document.createElement('div');
 contactHeading.appendChild(validateConfirm);
 
+const form = document.querySelector('#form');
+
 
 nameInput.addEventListener("input", (e) => {
     if (!nameInput.validity.valid) {
