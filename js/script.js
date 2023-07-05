@@ -18,7 +18,29 @@ const interestSelect = document.querySelector('#interest');
 const noInterest = document.createElement('div');
 interest.insertBefore(noInterest, interestSelect);
 
-const message = document.querySelector('.message-input');
-const messageInput = document.querySelector('#message');
-const wrongMessage = document.createElement('div');
-message.insertBefore(wrongMessage, messageInput);
+const button = document.querySelector('#button');
+
+
+nameInput.addEventListener("input", (e) => {
+    if (nameInput.validity.valid) {
+        wrongName.textContent = "";
+    } else {
+        wrongName.textContent = "You can only put characters in here!";
+    }
+});
+
+emailInput.addEventListener("input", (e) => {
+    if (emailInput.validity.valid) {
+        wrongEmail.textContent = "";
+    } else {
+        wrongEmail.textContent = "You can only put email addresses in here!";
+    }
+});
+
+phoneInput.addEventListener("input", (e) => {
+    if (phoneInput.validity.valid) {
+        wrongPhone.textContent = "";
+    } else {
+        wrongPhone.textContent = "You can only put numbers in here!";
+    }
+});
