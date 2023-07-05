@@ -18,7 +18,10 @@ const interestSelect = document.querySelector('#interest');
 const noInterest = document.createElement('div');
 interest.insertBefore(noInterest, interestSelect);
 
+const contactHeading = document.querySelector('.contact-heading');
 const button = document.querySelector('#button');
+const validateConfirm = document.createElement('div');
+contactHeading.appendChild(validateConfirm);
 
 
 nameInput.addEventListener("input", (e) => {
@@ -51,4 +54,8 @@ interestSelect.addEventListener("click", (e) => {
     } else {
         noInterest.textContent = "";
     }
-} )
+});
+
+button.addEventListener("submit", (e) => {
+
+})
