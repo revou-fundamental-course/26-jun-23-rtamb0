@@ -6,12 +6,12 @@
 }
 
 .page-title h1, .testimonial-bio h4, .add-info > p , .contact-heading h1, 
-form label, .second h1, .package-top h4 {
+form label, .second h1, .package-top h4, .closing-text h1 {
     color: #434e5a;
 }
 
 .page-title h5, .description h3, .testimonial-bio p, .feature div, 
-.package-logo, .feature p, .contact-heading p, .package p {
+.package-logo, .feature p, .contact-heading p, .package p, .closing-text p{
     color: #8d959e;
 }
 
@@ -52,7 +52,7 @@ form label, .second h1, .package-top h4 {
     border-width: 0 1px;
 }
 
-header hr {
+header hr, footer hr {
     border-top: 1px;
 }
 
@@ -227,8 +227,8 @@ form select:invalid, option[value=""] {
     color: #888;
 }
 
-form button {
-    padding: 18px;
+form button, .closing button {
+    padding: 18px 0;
     border-radius: 5px;
     background-color: #434e5a;
     border-style: none;
@@ -297,4 +297,33 @@ section.second {
 .list-2 .package-logo img {
     height: 20px;
     opacity: 30%;
+}
+
+.closing, .closing-text {
+    display: flex;
+    flex-direction: column; 
+}
+
+.closing {
+    align-items: center;
+    text-align: center;
+    gap: 75px;
+    padding: 75px;
+}
+
+.closing-text {
+    gap: 35px;
+}
+
+.closing-text h1 {
+    font-size: 40px;
+}
+
+.closing-text p {
+    max-width: 660px;
+    font-size: 18px;
+}
+
+.closing button {
+    min-width: 300px;
 }
