@@ -75,3 +75,21 @@ form.addEventListener("submit", (e) => {
         validateConfirm.style.cssText += 'color: darkgreen;';
     }
 })
+
+function bannerSlideshow(limit) {
+    let i = 0;
+    slideshow[i].classList.remove('inactive');
+    setInterval(() => {
+        i++;
+        if (i === limit) {
+            i = 0;
+            slideshow[limit - 1].classList.add('inactive');
+        }
+        slideshow[i].classList.remove('inactive');
+        if (i > 0) {
+        slideshow[i - 1].classList.add('inactive');
+        };
+    }, 3000);
+};
+
+bannerSlideshow(3);
